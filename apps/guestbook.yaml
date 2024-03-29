@@ -29,6 +29,6 @@ spec:
         targetRevision: HEAD
         path: configs/guestbook/env/{{cluster}}
       destination:
-        name: 'mac2'
+        name: 'mac1'
         namespace: 'guestbook-{{cluster}}-{{project}}'
 
